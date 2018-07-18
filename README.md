@@ -1,37 +1,36 @@
-# PHP: The Right Way
+# PHP: The Right Way - PHP: 正確之道
 
-## Overview
+## 概觀
 
-This is the GitHub Pages repository for the _PHP: The Right Way_ project.
+這是 _PHP: The Right Way PHP: 正確之道_的正體中文翻譯版本的 Github Pages.
 
-* This website is a Jekyll project.
-* Each section and sub-section are a Markdown file in `_posts/`.
-* Sub-sections have `isChild: true` in their front matter.
-* The navigation and page structure are automatically generated.
+* 這個網站是個 Jekyll 專案.
+* 每個章節都是以 Markdown 的形式存放於 `_posts/`.
+* 每一節都會有 `isChild: true` 屬性宣告.
+* 頁面導覽與架構都是自動產生.
 
-## Spread the Word!
+## 口耳相傳!
 
-_PHP: The Right Way_ has web banner images you can use on your website. Show your support, and let new PHP
-developers know where to find good information!
+你可以將 _PHP: 正確之道_ 的橫幅圖片放在你的網站上. 讓更多的PHP新進能知道在哪可以獲得良好的資訊!
 
-[See Banner Images](http://www.phptherightway.com/banners.html)
+[橫幅圖片](http://www.phptherightway.com/banners.html)
 
-## How to Contribute
+## 如何貢獻
 
-You should read the `CONTRIBUTING.md` file for precise instructions and tips. But, if you prefer a TL;DR:
+請先看過 `CONTRIBUTING.md` 文件來獲取正確的指引與技巧. 但如果你覺得那實在是太多了:
 
-1. Fork and edit
-2. Optionally install [Ruby](https://rvm.io/rvm/install/) with [Jekyll](https://github.com/mojombo/jekyll/) gem to preview locally
-3. Submit pull request for consideration
+1. Fork 然後編輯
+2. 考慮安裝 [Ruby](https://rvm.io/rvm/install/) 與 [Jekyll](https://github.com/mojombo/jekyll/) gem 來進行本地預覽
+3. 送出 pull request 以供審閱
 
-### Contributor Style Guide
+### 貢獻者樣式指南
 
-1. Use American English spelling (*primary English repo only*)
-2. Use four (4) spaces to indent text; do not use tabs.
-3. Wrap all text to 120 characters.
-4. Code samples should adhere to PSR-1 or higher.
+1. 使用美式英文(*primary English repo only*), 中文版本請使用_正體中文_
+2. 使用 4 個空白來進行縮排; 請勿使用 tabs
+3. 每行至多 120 字元
+4. 程式範例請遵循 PSR-1 以上之規範
 
-## Where
+## 何處取得
 
 <http://www.phptherightway.com>
 
@@ -58,30 +57,31 @@ You should read the `CONTRIBUTING.md` file for precise instructions and tips. Bu
 * [简体中文](http://laravel-china.github.io/php-the-right-way/)
 * [繁體中文](http://laravel-taiwan.github.io/php-the-right-way)
 
-### Translations
+### 翻譯
 
-If you are interested in translating _PHP: The Right Way_, fork this repo on GitHub and publish your localized fork to your own GitHub Pages account. We'll link to your translation from the primary document.
+如果您有興趣協助翻譯 _PHP: 正確之道_, fork 此專案並且發佈於您的 GitHub Pages中. 我們將會從主文件中連結您的翻譯版本.
 
-To avoid fragmentation and reader confusion, please choose one of these options:
+為了避免文件散亂造成讀者困擾, 請選擇以下其中一種方式:
 
-1. We link to your GitHub Pages fork with `[username].github.io/php-the-right-way`
-2. We link to your GitHub Pages fork with a subdomain (e.g. "ru.phptherightway.com")
+1. 我們以 `[username].github.io/php-the-right-way` 連結您的 Github Pages
+2. 我們以子網域的方式連結您的 Github Pages (如: "ru.phptherightway.com")
 
-If you use a subdomain, enter the subdomain into the `CNAME` file, and ask us to setup DNS for you. If you do not use a subdomain, remove the `CNAME` file entirely else your fork will not build when pushed.
+若是您選擇子網域, 請在`CNAME`檔案中輸入您的子網域, 並且告知我們為您設定 DNS. 如果您不想使用子網域, 請移除 `CNAME` 檔案, 不然您的分支在 push 時將不會被build.
 
-Add information about your translation in the [wiki page](https://github.com/codeguy/php-the-right-way/wiki/Translations).
+在 [wiki page] 中增加您的翻譯相關訊息
+(https://github.com/codeguy/php-the-right-way/wiki/Translations).
 
-When your translation is ready, open an issue on the Issue Tracker to let us know.
+當您的翻譯完成時, 請開一個 issue 於 Issue Tracker 讓我們之道.
 
-## Why
+## 為什麼
 
-There's been a lot of discussion lately about how the PHP community lacks sufficient, credible information for programmers new to PHP. This repository aims to solve this problem.
+近在 PHP 社群中有大量的討論，對於 PHP 新手而言，缺少足夠且可靠的資訊。而此源庫就是為了解決此問題。
 
-## Who
+## 誰
 
-My name is [Josh Lockhart](http://twitter.com/codeguy). I'm the author of the [Slim Framework](http://www.slimframework.com/), and I work for [New Media Campaigns](http://www.newmediacampaigns.com/).
+我的名字是 [Josh Lockhart](http://twitter.com/codeguy). 我是 [Slim Framework](http://www.slimframework.com/) 的作者並且在 [New Media Campaigns](http://www.newmediacampaigns.com/) 工作.
 
-### Collaborators
+### 協作
 
 * [Kris Jordan](http://krisjordan.com/)
 * [Phil Sturgeon](http://philsturgeon.co.uk/)
