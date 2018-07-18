@@ -1,6 +1,7 @@
 ---
+title: 起步
 anchor: getting_started
 ---
 
-# Getting Started {#getting_started_title}
+# 起步 {#getting_started_title}
 

@@ -15,7 +15,7 @@
 
 [橫幅圖片](http://www.phptherightway.com/banners.html)
 
-## 如何貢獻
+## 如何參與
 
 請先看過 `CONTRIBUTING.md` 文件來獲取正確的指引與技巧. 但如果你覺得那實在是太多了:
 
@@ -23,7 +23,7 @@
 2. 考慮安裝 [Ruby](https://rvm.io/rvm/install/) 與 [Jekyll](https://github.com/mojombo/jekyll/) gem 來進行本地預覽
 3. 送出 pull request 以供審閱
 
-### 貢獻者樣式指南
+### 參與者樣式指南
 
 1. 使用美式英文(*primary English repo only*), 中文版本請使用_正體中文_
 2. 使用 4 個空白來進行縮排; 請勿使用 tabs
@@ -89,3 +89,6 @@
 ## License
 
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-nc-sa/3.0/)
+
+## 關於此中文翻譯版本 特別感謝
+* [Laravel Taiwan](https://github.com/laravel-taiwan/php-the-right-way)

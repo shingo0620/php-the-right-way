@@ -1,18 +1,18 @@
 ---
-title:   Common Directory Structure
+title:   常見的目錄結構
 isChild: true
 anchor:  common_directory_structure
 ---
 
-## Common Directory structure {#common_directory_structure_title}
+## 常見的目錄結構 {#common_directory_structure_title}
 
-A common question among those starting out with writing programs for the web is, "where do I put my stuff?" Over the years, this answer has consistently been "where the `DocumentRoot` is." Although this answer is not complete, it's a great place to start.
+在剛開始開發網頁程式時一個常見的問題是, "我要把東西放在哪?" 許多年過去了, 這個問題的答案依然是 "`DocumentRoot` 的所在." 雖然這個答案並不完整, 但這是一個好的開始位置.
 
-For security reasons, configuration files should not be accessible by a site's visitors; therefore, public scripts are kept in a public directory and private configurations and data are kept outside of that directory.
+基於安全性的理由, 設定檔案不應該被網站的瀏覽者取得; 所以, 公開的程式就保留在一個公開的目錄中, 而私人的設定和資料則存放在這個目錄之外.
 
-For each team, CMS, or framework one works in, a standard directory structure is used by each of those entities. However, if one is starting a project alone, knowing which filesystem structure to use can be daunting.
+對於參與一個團隊, CMS, 框架, 一個標準的目錄結構就是其正在使用的結構. 但是, 如果是一個獨立執行的專案, 知道該使用何種檔案目錄架構是艱鉅的.
 
-[Paul M. Jones] has done some fantastic research into common practices of tens of thousands of github projects in the realm of PHP. He has compiled a standard file and directory structure, the [Standard PHP Package Skeleton], based on this research. In this directory structure, `DocumentRoot` should point to `public/`, unit tests should be in the `tests/` directory, and third party libraries, as installed by [composer], belong in the `vendor/` directory. For other files and directories, abiding by the [Standard PHP Package Skeleton] will make the most sense to contributors of a project.
+[Paul M. Jones] 針對 github 上成千上萬的專案進行了一個出色的研究. 基於這個研究編排了一份檔案與目錄的標準結構, [Standard PHP Package Skeleton]. 在這個目錄結構中, `DocumentRoot` 應該要指向 `public/`, 單元測試應該要放在 `tests/` 目錄中, 而第三方的程式庫, 就如同使用 [composer] 安裝, 放置於 `vendor/` 目錄中. 其他的檔案與目錄, 遵守 [Standard PHP Package Skeleton] 對於參與專案來說會是個最合理的方式.
 
 [Paul M. Jones]: https://twitter.com/pmjones
 [Standard PHP Package Skeleton]: https://github.com/php-pds/skeleton
